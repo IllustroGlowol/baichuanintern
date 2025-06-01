@@ -1,3 +1,4 @@
 *.jsonl filter=lfs diff=lfs merge=lfs -text
 Marco-o1_sci/*.jsonl filter=lfs diff=lfs merge=lfs -text
 Marco-o1/*.jsonl filter=lfs diff=lfs merge=lfs -text
+zhangtao02/*.jsonl filter=lfs diff=lfs merge=lfs -text

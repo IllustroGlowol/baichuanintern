@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 调试程序: 运行VLMEvalKit",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/data_train/code/mllm/zhangtao02/VLMEvalKit/run.py",
+            "console": "integratedTerminal",
+            "python": "/root/miniconda3/envs/llama_factory/bin/python",
+            "justMyCode": false,
+            "args": [
+                "--data", "MathVision", "MathVista_MINI", "MathVerse_MINI_Vision_Only",
+                "--model", "qwen25_vl_32b_instruct",
+                "--verbose"
+            ]
+        }
+    ]
+}
